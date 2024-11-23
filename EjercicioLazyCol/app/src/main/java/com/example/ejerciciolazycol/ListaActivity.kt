@@ -1,25 +1,20 @@
-package com.example.ejerciciolazycolumns
+package com.example.ejerciciolazycol
 
-fun obtenerKardex(): List<Kardex> {
-    return listOf(
-        Kardex("Matemáticas", 9.5, 5),
-        Kardex("Historia", 8.7, 3),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Física", 7.8, 4),
-        Kardex("Programación", 10.0, 6),
-        Kardex("Química", 8.0, 4)
-    )
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.runtime.remember
+
+import com.example.ejerciciolazycol.ui.theme.EjercicioLazyColTheme
+
+class ListaActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            EjercicioLazyColTheme {
+                val materias = remember { obtenerKardexEditable() }
+                ListaKardexEditable(materias)
+            }
+        }
+    }
 }
-
