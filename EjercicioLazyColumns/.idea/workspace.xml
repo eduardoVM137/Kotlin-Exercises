@@ -10,8 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e935ec-0fe5-4696-a4b2-222b017829b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/DBPruebas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/DKardex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/DaoKardex.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioLazyCol/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioLazyCol/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/Kardex.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/KardexActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/ListaActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioLazyCol/app/src/main/java/com/example/ejerciciolazycol/MainActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,10 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/blodc/AndroidStudioProjects/Kotlin-Exercises/EjercicioLazyCol",
+    "last_opened_file_path": "C:/Users/blodc/AndroidStudioProjects/Kotlin-Exercises/EjercicioLazyColumns",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
